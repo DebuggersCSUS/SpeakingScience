@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakingScience.WebsiteApp", "SpeakingScience.WebsiteApp\SpeakingScience.WebsiteApp.csproj", "{F37EF0C2-B7AB-46DA-A5BD-4A4B20DB3728}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{C78C3C03-7B16-4EA9-A35A-A4CFF954C90D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{89F36B5F-F347-49E7-9C63-0425C95D5AC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{749AA7EB-DFD5-430B-842A-7739C38F1FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakingScience.Users.Core", "..\Users\SpeakingScience.Users.Core\SpeakingScience.Users.Core.csproj", "{37B7D453-1642-478B-AA48-70036A8608FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakingScience.Users.Data", "..\Users\SpeakingScience.Users.Data\SpeakingScience.Users.Data.csproj", "{F0A53450-1888-47E3-B762-F7484575B182}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F37EF0C2-B7AB-46DA-A5BD-4A4B20DB3728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37EF0C2-B7AB-46DA-A5BD-4A4B20DB3728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37EF0C2-B7AB-46DA-A5BD-4A4B20DB3728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37EF0C2-B7AB-46DA-A5BD-4A4B20DB3728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B7D453-1642-478B-AA48-70036A8608FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B7D453-1642-478B-AA48-70036A8608FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B7D453-1642-478B-AA48-70036A8608FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B7D453-1642-478B-AA48-70036A8608FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A53450-1888-47E3-B762-F7484575B182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A53450-1888-47E3-B762-F7484575B182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A53450-1888-47E3-B762-F7484575B182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A53450-1888-47E3-B762-F7484575B182}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89F36B5F-F347-49E7-9C63-0425C95D5AC3} = {C78C3C03-7B16-4EA9-A35A-A4CFF954C90D}
+		{749AA7EB-DFD5-430B-842A-7739C38F1FE9} = {C78C3C03-7B16-4EA9-A35A-A4CFF954C90D}
+		{37B7D453-1642-478B-AA48-70036A8608FC} = {89F36B5F-F347-49E7-9C63-0425C95D5AC3}
+		{F0A53450-1888-47E3-B762-F7484575B182} = {749AA7EB-DFD5-430B-842A-7739C38F1FE9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {988D8DF4-BB2F-4BC5-A137-5C63C391FF93}
+	EndGlobalSection
+EndGlobal

@@ -76,7 +76,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SpeakingScience.Users.Core\SpeakingScience.Users.Core\SpeakingScience.Users.Core.csproj">
+    <ProjectReference Include="..\SpeakingScience.Users.Core\SpeakingScience.Users.Core.csproj">
       <Project>{37b7d453-1642-478b-aa48-70036a8608fc}</Project>
       <Name>SpeakingScience.Users.Core</Name>
     </ProjectReference>
