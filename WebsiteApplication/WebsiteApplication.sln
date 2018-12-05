@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakingScience.WebsiteApp", "SpeakingScience.WebsiteApp\SpeakingScience.WebsiteApp.csproj", "{F37EF0C2-B7AB-46DA-A5BD-4A4B20DB3728}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0A53450-1888-47E3-B762-F7484575B182} = {F0A53450-1888-47E3-B762-F7484575B182}
+		{37B7D453-1642-478B-AA48-70036A8608FC} = {37B7D453-1642-478B-AA48-70036A8608FC}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{C78C3C03-7B16-4EA9-A35A-A4CFF954C90D}"
 EndProject
